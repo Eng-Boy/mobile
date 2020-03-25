@@ -1,1 +1,69 @@
-
+body {
+  flex: 10;
+  background: yellowgreen;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 0.16rem;
+  height: 17.777778rem;
+}
+a {
+  text-decoration: none;
+}
+.information {
+  display: flex;
+  font-size: 0.388889rem;
+  position: relative;
+  top: 0;
+  height: 0.925926rem;
+}
+.information a {
+  background: #111;
+  color: #fff;
+  flex: 1;
+  height: 0.509259rem;
+  margin: auto 0.046296rem;
+  border-radius: 0.185185rem;
+}
+.dilan {
+  position: fixed;
+  bottom: 0;
+  margin: 0 auto;
+  display: flex;
+  height: 1.666667rem;
+  width: 10rem;
+  background: #334251;
+}
+.dilan a {
+  text-align: center;
+  border: 0.018519rem solid #527798;
+  border-bottom: 0;
+  font-size: 0.296296rem;
+  background: red;
+  width: 1.666667rem;
+}
+.dilan a:nth-child(3) {
+  width: 3.287037rem;
+  background: pink;
+}
+.dilan a:nth-child(even) {
+  background: #666666;
+}
+.menu {
+  background: pink;
+  height: 1.388889rem;
+}
+.task {
+  background: purple;
+  height: 1.944444rem;
+}
+.scenery {
+  background: skyblue;
+  height: 6.018519rem;
+}
+.operate {
+  background: red;
+  height: 2.777778rem;
+}
+.Spoils {
+  background: pink;
+  height: 3.055556rem;
+}
